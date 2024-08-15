@@ -293,9 +293,6 @@ func GoSearch(inpute DotConnect, filled int, currentPos []int, peth [][]int, pre
 	// 	fmt.Println(peth)
 	// 	fmt.Println(filled)
 	// }
-	if (filled >= 70) {
-		fmt.Println(peth)
-	}
 	if currentPos[1]+1 < len(inpute.Board[0]) && inpute.Board[currentPos[0]][currentPos[1]+1] == 0 {
 		// fmt.Println("E", peth)
 		if back {
