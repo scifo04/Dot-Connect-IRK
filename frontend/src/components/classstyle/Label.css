@@ -1,0 +1,12 @@
+.labelStyle {
+    font-family: Poppins;
+    font-size: 16px;
+    border: 2px solid rgb(0,128,0);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(0,128,0);
+    width: 140px;
+    height: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}

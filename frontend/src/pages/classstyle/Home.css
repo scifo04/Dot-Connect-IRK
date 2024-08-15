@@ -1,0 +1,180 @@
+.title {
+    font-family: PROXON;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.imgConn {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.firstInfo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    color: aliceblue;
+    width: 45%;
+    font-family: Inter;
+    height: 400px;
+    margin: 100px auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+    flex-direction: column;
+}
+
+.styleButton {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Calibri;
+    background-color: rgb(0, 199, 0);
+    color: rgb(255, 255, 255);
+    outline: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.styleButton:hover {
+    background-color: rgb(20, 20, 20);
+    color: rgb(0, 255, 0);
+}
+
+.containuh {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    color: aliceblue;
+    width: 35%;
+    font-family: Inter;
+    height: 400px;
+    margin: 100px auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+    flex-direction: column;
+}
+
+.gamesetup {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    color: aliceblue;
+    width: 25%;
+    font-family: Inter;
+    height: 240px;
+    margin: 20px auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+    flex-direction: column;
+}
+
+.playButton {
+    font-family: Poppins;
+    font-size: 15px;
+    border: 2px solid rgb(0,128,0);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(0,128,0);
+    width: 90px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.playButton:hover {
+    border: 2px solid black;
+    background-color: rgb(0,128,0);
+    color: black;
+}
+
+.watchsetup {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    color: aliceblue;
+    width: 25%;
+    font-family: Inter;
+    height: 40px;
+    margin: 20px auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+    flex-direction: column;
+}
+
+.leadersetup {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.378);
+    color: aliceblue;
+    width: 25%;
+    font-family: Inter;
+    height: 190px;
+    margin: 10px auto; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Align content vertically */
+    justify-content: center; /* Align content horizontally */
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+    flex-direction: column;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.dotConnect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    min-height: 200px;
+    min-width: 200px;
+    padding: 20px; /* Optional: Add some padding */
+    background-color: rgba(0, 0, 0, 0.378);
+    border-color: rgb(0,200,0);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.6);
+}

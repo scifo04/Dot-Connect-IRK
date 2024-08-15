@@ -1,0 +1,8 @@
+.square {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 35px;
+}
