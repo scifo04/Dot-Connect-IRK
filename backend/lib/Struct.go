@@ -20,6 +20,7 @@ type WinInfo struct {
 	Time int `json:"time"`
 	Difficulty string `json:"difficulty"`
 	GameMode string `json:"gamemode"`
+	Winner string `json:"winner"`
 }
 
 type DisplayInfo struct {

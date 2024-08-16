@@ -72,6 +72,14 @@ const Game = () => {
             </div>
             <div>
                 <div>
+                    <div className='leadersetup'>
+                        <LeaderBoard difficulty={leadDiff} setDifficulty={setLeadDiff} gameMode={leadMode} setGameMode={setLeadMode}/>
+                    </div>
+
+                    <div className='watchsetup'>
+                        <Stopwatch elapsedTime={elapsedTime} setElapsedTime={setElapsedTime} isRunning={isRunning} setIsRunning={setIsRunning} startTimeRef={startTimeRef}/>
+                    </div>
+
                     <div className='gamesetup'>
                         <div className='game'>
                             Welcome {username}
@@ -99,17 +107,9 @@ const Game = () => {
                             ) }
                         </div>
                     </div>
-
-                    <div className='watchsetup'>
-                        <Stopwatch elapsedTime={elapsedTime} setElapsedTime={setElapsedTime} isRunning={isRunning} setIsRunning={setIsRunning} startTimeRef={startTimeRef}/>
-                    </div>
-
-                    <div className='leadersetup'>
-                        <LeaderBoard difficulty={leadDiff} setDifficulty={setLeadDiff} gameMode={leadMode} setGameMode={setLeadMode}/>
-                    </div>
                 </div>
                 <div className='parent-container'>
-                    <div className='dotConnect' style={{height:`${getDimensions().height*120}`,width:`${getDimensions().width*120}`}}>
+                    <div className='dotConnect' style={{height:`${(getDimensions().height)*80}px`,width:`${getDimensions().width*70}px`}}>
                         { create && (<DotConnect height={height} 
                                                 width={width} 
                                                 arraye={arrayOfArrays} 
